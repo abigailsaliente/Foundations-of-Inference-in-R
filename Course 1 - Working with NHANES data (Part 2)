@@ -1,0 +1,5 @@
+# Create bar plot for Home Ownership by Gender
+ggplot(NHANES, aes(x = Gender , fill = HomeOwn)) + 
+  # Set the position to fill
+  geom_bar(position = "fill") +
+  ylab("Relative frequencies")
