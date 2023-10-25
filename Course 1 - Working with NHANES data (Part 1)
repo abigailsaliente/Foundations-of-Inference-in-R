@@ -1,0 +1,28 @@
+# Load packages
+library(ggplot2)
+library(NHANES)
+
+# What are the variables in the NHANES dataset?
+colnames(NHANES)
+
+
+
+ [1] "ID"               "SurveyYr"         "Gender"           "Age"             
+ [5] "AgeDecade"        "AgeMonths"        "Race1"            "Race3"           
+ [9] "Education"        "MaritalStatus"    "HHIncome"         "HHIncomeMid"     
+[13] "Poverty"          "HomeRooms"        "HomeOwn"          "Work"            
+[17] "Weight"           "Length"           "HeadCirc"         "Height"          
+[21] "BMI"              "BMICatUnder20yrs" "BMI_WHO"          "Pulse"           
+[25] "BPSysAve"         "BPDiaAve"         "BPSys1"           "BPDia1"          
+[29] "BPSys2"           "BPDia2"           "BPSys3"           "BPDia3"          
+[33] "Testosterone"     "DirectChol"       "TotChol"          "UrineVol1"       
+[37] "UrineFlow1"       "UrineVol2"        "UrineFlow2"       "Diabetes"        
+[41] "DiabetesAge"      "HealthGen"        "DaysPhysHlthBad"  "DaysMentHlthBad" 
+[45] "LittleInterest"   "Depressed"        "nPregnancies"     "nBabies"         
+[49] "Age1stBaby"       "SleepHrsNight"    "SleepTrouble"     "PhysActive"      
+[53] "PhysActiveDays"   "TVHrsDay"         "CompHrsDay"       "TVHrsDayChild"   
+[57] "CompHrsDayChild"  "Alcohol12PlusYr"  "AlcoholDay"       "AlcoholYear"     
+[61] "SmokeNow"         "Smoke100"         "Smoke100n"        "SmokeAge"        
+[65] "Marijuana"        "AgeFirstMarij"    "RegularMarij"     "AgeRegMarij"     
+[69] "HardDrugs"        "SexEver"          "SexAge"           "SexNumPartnLife" 
+[73] "SexNumPartYear"   "SameSex"          "SexOrientation"   "PregnantNow"  
